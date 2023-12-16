@@ -1,6 +1,6 @@
 <?php
 
-    require "functions.php";
+    require "assets/functions.php";
 
     $connection = connectionDB();
     $books = getAllBooks($connection, "id, isbn, book_name, first_name, second_name, description");
@@ -14,7 +14,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php require "header.php" ?>
+    <?php require "assets/header.php" ?>
     
 
     <main>

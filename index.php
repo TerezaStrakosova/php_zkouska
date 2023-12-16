@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php require "header.php" ?>
+    <?php require "assets/header.php" ?>
 </body>
 </html>

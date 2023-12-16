@@ -41,13 +41,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             echo "<p>Popis: " . htmlspecialchars($row['description']) . "</p>";
             echo "<hr>";
             echo "<br>";
-            echo "<a href='vyhledavani.php'>Zpět na vyhledávání</a>";
+            echo "<a href='../vyhledavani.php'>Zpět na vyhledávání</a>";
         }
 
         // Zpráva, pokud nebyly nalezeny žádné výsledky
         if (mysqli_num_rows($result) === 0) {
             echo "<p>Žádné knihy nebyly nalezeny.</p>";
-            echo "<a href='vyhledavani.php'>Zpět na vyhledávání</a>";
+            echo "<a href='../vyhledavani.php'>Zpět na vyhledávání</a>";
         }
 
     }

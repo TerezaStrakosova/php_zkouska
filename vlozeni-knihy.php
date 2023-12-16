@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php require "header.php" ?>
+    <?php require "assets/header.php" ?>
     <main>
-        <form action="add-book.php" method="POST">
+        <form action="assets/add-book.php" method="POST">
             <input type="text" name="book_name" placeholder="Název knihy" required ><br>
             <input type="text" name="isbn" placeholder="ISBN" required><br>
             <input type="text" name="first_name" placeholder="Křestní jméno autora" required><br>
