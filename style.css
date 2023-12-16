@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8e8e8e;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(37, 37, 37);
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+/***** přehled knih *****/
+.books-list {
+    width: 700px;
+    margin: 0px auto 10px auto;
+}
+
+.books-list h3 {
+    padding-top: 15px;
+}
+
+.books-list p {
+    padding-top: 5px;
+}
+
+/***** formuláře *****/
+form {
+    text-align: center;
+    outline: none;
+}
+
+form input {
+    padding: 5px 10px;
+    margin-bottom: 2px;
+    border: none;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    background-color: rgb(115, 115, 115);
+    font-size: 17px;
+    margin-top: 5px;
+    color: black;
+    border: 1px solid black;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: 1px solid white;
+    transition: all linear 0.3s;
+}
+
+/***** vyhledávání knih *****/
+.find-list {
+    width: 700px;
+    margin: 10px auto;
+}
+
+.button-back {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    font-size: 17px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(115, 115, 115);
+    margin-bottom: 20px;
+}
+
+.button-back {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(115, 115, 115);
+}
+
+.button-back:hover {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: 1px solid white;
+    transition: all linear 0.3s;
+}
+
+
