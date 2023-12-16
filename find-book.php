@@ -56,13 +56,12 @@
                     echo "<br>";
                 }
                 echo "</div>";
-                echo "<a class='button-back' href='./vyhledavani.php'>Zpět na vyhledávání</a>";
 
                 // Zpráva, pokud nebyly nalezeny žádné výsledky
                 if (mysqli_num_rows($result) === 0) {
-                    echo "<p>Žádné knihy nebyly nalezeny.</p>";
-                    echo "<a href='../vyhledavani.php'>Zpět na vyhledávání</a>";
+                    echo "<p class='no-books'>Žádné knihy nebyly nalezeny.</p>";
                 }
+                echo "<a class='button-back' href='./vyhledavani.php'>Zpět na vyhledávání</a>";
 
             }
         }

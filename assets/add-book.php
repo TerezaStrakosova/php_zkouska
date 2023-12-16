@@ -12,10 +12,6 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){  // kod se provede až bude formulá�
     
     $connection = connectionDB();
 
-    if($_POST["first_name"] === ""){
-        die("Křestní jméno je povinné");
-    }
-
     createNewBook($connection, $isbn, $first_name, $second_name, $book_name, $description);
 
 }
